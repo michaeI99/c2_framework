@@ -61,6 +61,7 @@ Use strong credentials for authentication
 Monitor all communications for research purposes
 
 ### Project Structure
+```
 c2_framework/
 ├── server/                      # Python-based C2 server
 │   ├── main.py                  # Entry point for server
@@ -75,3 +76,4 @@ c2_framework/
 │   │   └── ...
 │   └── Makefile                 # Build configuration
 └── README.md                    # This documentation
+
