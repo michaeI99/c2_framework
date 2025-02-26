@@ -83,5 +83,8 @@ c2_framework/
 │   │   ├── crypto.c/h           # Encryption implementations
 │   │   └── ...
 │   └── Makefile                 # Build configuration
-└── README.md                    # This documentation
+├──  LICENSE                      # Legal documentation
+├──  README.md                    # This documentation
+├──  TECHNICAL.md                 # TECHNICAL documentation
+└──  USAGE.md                     # How to setup and use this software
 ```
