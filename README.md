@@ -25,8 +25,10 @@ Periodic beaconing
 Command queuing and execution
 
 All code is provided for study purposes to understand how such systems operate, which is valuable knowledge for defending against similar techniques in the wild.
-Technical Overview
-[Include your technical documentation here]
+
+## Technical Overview
+
+For detailed technical documentation, see [TECHNICAL.md](TECHNICAL.md).
 Usage Instructions
 [Include setup and usage instructions for educational environments]
 License
