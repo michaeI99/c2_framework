@@ -12,14 +12,16 @@ cd c2-framework/server
 
 Set up a virtual enviornment as it is best practive for Python projects
 
--On macOS/Linux \\
+-On macOS/Linux
+```
 python3 -m venv venv
 source venv/bin/activate
-
--On Windows \\
+```
+-On Windows
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 Install Python dependencies:
 pip install -r requirements.txt
 
