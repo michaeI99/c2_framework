@@ -12,47 +12,53 @@ cd c2-framework/server
 
 Set up a virtual enviornment as it is best practive for Python projects
 
--On macOS/Linux
+On macOS/Linux
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
--On Windows
+On Windows
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
 Install Python dependencies:
+```
 pip install -r requirements.txt
-
+```
 Start the C2 server:
+```
 python3 main.py
 The server will listen on http://localhost:5050 by default.
-
+```
 ### Agent Compilation
 
 Navigate to the agent directory:
+```
 cd c2-framework/agent
-
+```
 Compile the agent:
+```
 make
-
+```
 Run the agent in a test environment:
+```
 ./agent
-
+```
 
 ### Using the CLI
 
 In a separate terminal, start the CLI:
+```
 cd c2-framework/server
 python3 cli.py
-
+```
 Available commands in the CLI:
-
+```
 1: List connected agents
 2: Send command to an agent
 3: Exit
-
+```
 
 
 ### Security Considerations for Testing
@@ -78,4 +84,4 @@ c2_framework/
 │   │   └── ...
 │   └── Makefile                 # Build configuration
 └── README.md                    # This documentation
-
+```
