@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+*.o
+*.exe
+*.so
+.venv/
+venv/
+.env
