@@ -30,7 +30,8 @@ All code is provided for study purposes to understand how such systems operate, 
 
 For detailed technical documentation, see [TECHNICAL.md](TECHNICAL.md).
 
-###Usage Instructions
+### Usage Instructions
 For detailed Usage documentation, see [USAGE.md](USAGE.md).
 
-This project is provided for educational purposes only. See LICENSE file for details.
+### This project is provided for educational purposes only.
+See LICENSE file for details.
