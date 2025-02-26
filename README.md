@@ -29,7 +29,8 @@ All code is provided for study purposes to understand how such systems operate, 
 ## Technical Overview
 
 For detailed technical documentation, see [TECHNICAL.md](TECHNICAL.md).
-Usage Instructions
-[Include setup and usage instructions for educational environments]
-License
+
+###Usage Instructions
+For detailed Usage documentation, see [USAGE.md](USAGE.md).
+
 This project is provided for educational purposes only. See LICENSE file for details.
