@@ -1,7 +1,7 @@
 ### C2 Framework - Educational Project
 ### IMPORTANT DISCLAIMER
 This repository contains a Command and Control (C2) framework developed for educational and research purposes only. The code in this repository implements techniques that are similar to those used in malware.
-Ethical Use Statement
+### Ethical Use Statement
 This software is intended to be used exclusively:
 
 In controlled lab environments
