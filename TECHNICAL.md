@@ -17,10 +17,10 @@ Configurable communication intervals
 
 ### Communication Protocol
 
--HTTP/HTTPS based communication
--JSON formatted data exchange
--Minimalist protocol design for reliability
--Command/response architecture
+- HTTP/HTTPS based communication
+- JSON formatted data exchange
+- Minimalist protocol design for reliability
+- Command/response architecture
 
 ### Security Features**
 
