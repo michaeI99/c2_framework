@@ -31,6 +31,6 @@ Configurable communication intervals
 - Command validation
 
 ### Future Updates
-- **DNS tunneling** for stealthy communication (to bypass network restrictions)
+- **DNS tunneling** to bypass network restrictions
 - **AES encryption** for stronger message confidentiality (to improve security)
 
