@@ -63,10 +63,10 @@ Available commands in the CLI:
 
 ### Security Considerations for Testing
 
-Always run in a isolated/sandboxed environment \\
-Never deploy on production or public-facing systems \\
-Use strong credentials for authentication \\
-Monitor all communications for research purposes \\
+Always run in a isolated/sandboxed environment <br/>
+Never deploy on production or public-facing systems <br/>
+Use strong credentials for authentication <br/>
+Monitor all communications for research purposes <br/>
 
 ### Project Structure
 ```
