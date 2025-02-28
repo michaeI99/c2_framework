@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 import os
 import base64
 import json
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes    # not in use yet
+from cryptography.hazmat.backends import default_backend                        # not in use yet
 
 app = Flask(__name__)
 
