@@ -22,10 +22,13 @@ JSON formatted data exchange
 Minimalist protocol design for reliability
 Command/response architecture
 
-Security Features
+**Base64 encoding** for simple data obfuscation
+- **XOR encryption** for message confidentiality (not secure for production)
+- Agent identification and tracking
+- Session management
+- Command validation
 
-Basic encryption for communications
-Agent identification and tracking
-Session management
-Command validation
+### Future Updates
+- **DNS tunneling** for stealthy communication (to bypass network restrictions)
+- **AES encryption** for stronger message confidentiality (to improve security)
 
