@@ -117,3 +117,5 @@ def list_agents():
 if __name__ == '__main__':
     print("[+] C2 server starting...")
     app.run(host='0.0.0.0', port=5050, debug=True)
+
+# Server needs to send output to the cli

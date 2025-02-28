@@ -33,7 +33,7 @@ def send_command(agent_id, command):
         print(f"Command sent to agent {agent_id}")
     else:
         print(f"Error sending command: {response.json().get('message')}")
-        
+
 def main_loop():
     print("C2 Client")
     print("=========")
@@ -88,3 +88,6 @@ def main_loop():
 
 if __name__ == "__main__":
     main_loop()
+
+
+# Cli needs to recive output from the server
