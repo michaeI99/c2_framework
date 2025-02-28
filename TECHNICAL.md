@@ -15,16 +15,16 @@ Command execution capabilities
 Output capture and exfiltration
 Configurable communication intervals
 
-Communication Protocol
+###Communication Protocol
 
-HTTP/HTTPS based communication
-JSON formatted data exchange
-Minimalist protocol design for reliability
-Command/response architecture
+-HTTP/HTTPS based communication
+-JSON formatted data exchange
+-Minimalist protocol design for reliability
+-Command/response architecture
 
-**Security Features
+### Security Features**
 
-**Base64 encoding** for simple data obfuscation
+-**Base64 encoding** for simple data obfuscation
 - **XOR encryption** for message confidentiality (not secure for production)
 - Agent identification and tracking
 - Session management
