@@ -33,8 +33,7 @@ def send_command(agent_id, command):
         print(f"Command sent to agent {agent_id}")
     else:
         print(f"Error sending command: {response.json().get('message')}")
-
-# Make global commnads available !!
+        
 def main_loop():
     print("C2 Client")
     print("=========")
